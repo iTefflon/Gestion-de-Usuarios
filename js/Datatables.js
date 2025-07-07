@@ -66,6 +66,23 @@ const configuracion = {
       {data: 'email', title: 'Email'},
       {data: 'body',  title: 'Contenido'}
     ]
+  },
+  albums:{
+    url:'https://jsonplaceholder.typicode.com/albums',
+    columnas: [
+      {data: 'userId', title: 'ID Usuario'},
+      {data: 'id', title: 'ID Album'},
+      {data: 'title', title: 'Titulo'}
+    ]
+  },
+  todos:{
+    url:'https://jsonplaceholder.typicode.com/todos',
+    columnas: [
+      {data: 'userId', title: 'ID Usuario'},
+      {data: 'id', title: 'ID Tarea'},
+      {data: 'title', title: 'Titulo'},
+      {data: 'completed', title: 'Completado'}
+    ]
   }
 }
 
